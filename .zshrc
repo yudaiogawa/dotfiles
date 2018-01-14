@@ -1,3 +1,10 @@
+# env
+
+########################################
+
+# nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 # 少し凝った zshrc
 # License : MIT
 # http://mollifier.mit-license.org/
