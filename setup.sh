@@ -7,5 +7,3 @@ do
   rm $HOME/$file
   ln -s $HOME/dotfiles/$file $HOME/$file
 done
-
-say finish setup of dotfiles
