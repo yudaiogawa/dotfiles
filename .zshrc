@@ -3,6 +3,9 @@
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
+# phpbrew
+source $HOME/.phpbrew/bashrc
+
 # config ############################################
 
 # 少し凝った zshrc
