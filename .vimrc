@@ -38,6 +38,9 @@ set wildmenu
 " ward wrap
 set nowrap
 
+" scroll spead
+set lazyredraw
+
 " highlight bracket
 set showmatch
 set matchtime=1
