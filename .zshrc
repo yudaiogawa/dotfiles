@@ -130,6 +130,7 @@ bindkey '^R' history-incremental-pattern-search-backward
 ########################################
 # エイリアス
 alias gs='git status'
+alias glog='git log --oneline'
 
 alias la='ls -a'
 alias ll='ls -l'
