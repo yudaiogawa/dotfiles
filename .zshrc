@@ -3,9 +3,6 @@
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
-# phpbrew
-source $HOME/.phpbrew/bashrc
-
 # maven
 export MAVEN2_HOME=/usr/local/apache-maven-2.2.1
 export PATH=$PATH:$MAVEN2_HOME/bin:$PATH
