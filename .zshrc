@@ -129,7 +129,7 @@ bindkey '^R' history-incremental-pattern-search-backward
 alias gs='git status'
 alias glog='git log --oneline'
 
-alias la='ls -a'
+alias la='ls -la'
 alias ll='ls -l'
 
 alias rm='rm -i'
