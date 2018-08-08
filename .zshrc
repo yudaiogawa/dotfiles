@@ -9,6 +9,16 @@ export PATH="$MAVEN2_HOME/bin:$PATH"
 export MAVEN_OPTS="-Xmx512m"
 export JAVA_HOME=`/usr/libexec/java_home`
 
+# jenv
+export JENV_ROOT="$HOME/.jenv"
+export PATH="$JENV_ROOT/bin:$PATH"
+eval "$(jenv init -)"
+
+# goenv
+export GOENV_ROOT="$HOME/.goenv"
+export PATH="$GOENV_ROOT/bin:$PATH"
+eval "$(goenv init -)"
+
 # config ############################################
 
 # 少し凝った zshrc
