@@ -7,7 +7,6 @@ export PATH="$HOME/.nodebrew/current/bin:$PATH"
 export MAVEN2_HOME="/usr/local/apache-maven-2.2.1"
 export PATH="$MAVEN2_HOME/bin:$PATH"
 export MAVEN_OPTS="-Xmx512m"
-export JAVA_HOME=`/usr/libexec/java_home`
 
 # jenv
 export JENV_ROOT="$HOME/.jenv"
@@ -144,15 +143,14 @@ bindkey '^R' history-incremental-pattern-search-backward
 # エイリアス
 alias gs='git status'
 alias glog='git log --oneline'
-
 alias la='ls -la'
 alias ll='ls -l'
-
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
-
 alias mkdir='mkdir -p'
+alias less='less -N'
+alias grep='grep --color=auto'
 
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '
