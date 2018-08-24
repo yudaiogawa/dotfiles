@@ -24,6 +24,8 @@ set showcmd
 set ruler
 
 " indent
+set autoindent
+set tabstop=2
 set shiftwidth=2
 
 " search
