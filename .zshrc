@@ -9,11 +9,6 @@ export MAVEN2_HOME="/usr/local/apache-maven-2.2.1"
 export PATH="$MAVEN2_HOME/bin:$PATH"
 export MAVEN_OPTS="-Xmx512m"
 
-# jenv
-export JENV_ROOT="$HOME/.jenv"
-export PATH="$JENV_ROOT/bin:$PATH"
-eval "$(jenv init -)"
-
 # goenv
 export GOENV_ROOT="$HOME/.goenv"
 export PATH="$GOENV_ROOT/bin:$PATH"
