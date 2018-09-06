@@ -1,7 +1,8 @@
 # env ###############################################
 
-# nodebrew
-export PATH="$HOME/.nodebrew/current/bin:$PATH"
+# anyenv
+export PATH="$PATH:$HOME/.anyenv/bin"
+eval "$(anyenv init -)"
 
 # maven
 export MAVEN2_HOME="/usr/local/apache-maven-2.2.1"
