@@ -20,6 +20,21 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# alias #############################################
+
+# git
+alias gad='git add'
+alias gbr='git branch'
+alias gch='git checkout'
+alias gcmt='git commit'
+alias gcfg='git config'
+alias gdf='git diff'
+alias gfe='git fetch'
+alias gl='git log'
+alias glone='git log --oneline'
+alias gs='git status'
+alias gsh='git show'
+
 # config ############################################
 
 # 少し凝った zshrc
@@ -137,8 +152,6 @@ bindkey '^R' history-incremental-pattern-search-backward
 
 ########################################
 # エイリアス
-alias gs='git status'
-alias glog='git log --oneline'
 alias la='ls -la'
 alias ll='ls -l'
 alias rm='rm -i'
