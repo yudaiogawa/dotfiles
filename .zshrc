@@ -20,6 +20,10 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# sqlplus(ORACLE)
+export ORACLE_HOME=/usr/local/oracle
+export PATH=$PATH:$ORACLE_HOME/instantclient_12_2
+
 # alias #############################################
 
 # git
