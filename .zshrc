@@ -24,7 +24,11 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export ORACLE_HOME=/usr/local/oracle
 export PATH=$PATH:$ORACLE_HOME/instantclient_12_2
 
-# alias #############################################
+# my alias ##########################################
+
+# unix
+alias less='less -N'
+alias grep='grep --color=auto'
 
 # git
 alias gad='git add'
@@ -37,6 +41,7 @@ alias gfe='git fetch'
 alias gl='git log'
 alias glone='git log --oneline'
 alias gs='git status'
+alias gst='git stash'
 alias gsh='git show'
 
 # config ############################################
@@ -156,14 +161,15 @@ bindkey '^R' history-incremental-pattern-search-backward
 
 ########################################
 # エイリアス
+
 alias la='ls -la'
 alias ll='ls -l'
+
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+
 alias mkdir='mkdir -p'
-alias less='less -N'
-alias grep='grep --color=auto'
 
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '
