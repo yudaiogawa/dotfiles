@@ -8,6 +8,7 @@ eval "$(anyenv init -)"
 export MAVEN2_HOME="/usr/local/apache-maven-2.2.1"
 export PATH="$MAVEN2_HOME/bin:$PATH"
 export MAVEN_OPTS="-Xmx512m"
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 # goenv
 export GOENV_ROOT="$HOME/.goenv"
