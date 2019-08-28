@@ -1,3 +1,3 @@
-# Manages the dotfiles.
-- vimrc
-- zshrc
+# Dotfiles
+
+Manage dotfiles.
