@@ -41,6 +41,7 @@ alias mkdir='mkdir -pv'
 # git
 alias gad='git add'
 alias gbr='git branch'
+alias gbrv='git branch -vv'
 alias gch='git checkout'
 alias gcmt='git commit'
 alias gconf='git config'
