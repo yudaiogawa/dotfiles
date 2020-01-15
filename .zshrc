@@ -28,8 +28,15 @@ export PATH=$PATH:$ORACLE_HOME/instantclient_12_2
 # my alias ##########################################
 
 # unix
+alias q='exit'
+alias root='cd /'
+alias home='cd ~'
+alias desktop='cd ~/Desktop'
 alias less='less -N'
 alias grep='grep --color=auto'
+alias cp='cp -i'
+alias mv='mv -i'
+alias mkdir='mkdir -pv'
 
 # git
 alias gad='git add'
