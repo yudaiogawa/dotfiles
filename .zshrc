@@ -4,6 +4,9 @@
 export PATH="$PATH:$HOME/.anyenv/bin"
 eval "$(anyenv init -)"
 
+# asdf
+. $(brew --prefix asdf)/asdf.sh
+
 # maven
 export MAVEN2_HOME="/usr/local/apache-maven-2.2.1"
 export PATH="$MAVEN2_HOME/bin:$PATH"
