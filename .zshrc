@@ -1,32 +1,23 @@
 # env ###############################################
 
 # anyenv
-export PATH="$PATH:$HOME/.anyenv/bin"
 eval "$(anyenv init -)"
+export PATH=$PATH:$HOME/.anyenv/bin
 
 # asdf
 . $(brew --prefix asdf)/asdf.sh
 
-# maven
-export MAVEN2_HOME="/usr/local/apache-maven-2.2.1"
-export PATH="$MAVEN2_HOME/bin:$PATH"
-export MAVEN_OPTS="-Xmx512m"
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-
-# goenv
-export GOENV_ROOT="$HOME/.goenv"
-export PATH="$GOENV_ROOT/bin:$PATH"
-eval "$(goenv init -)"
-
-# android development
+# android develepment
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-# sqlplus(ORACLE)
-export ORACLE_HOME=/usr/local/oracle
-export PATH=$PATH:$ORACLE_HOME/instantclient_12_2
+# maven
+export MAVEN_OPTS='-Xmx512m'
+
+# java
+export _JAVA_OPTIONS='-Dfile.encoding=UTF-8'
 
 # my alias ##########################################
 
