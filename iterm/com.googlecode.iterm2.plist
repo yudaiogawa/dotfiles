@@ -465,8 +465,14 @@
 	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>524288</integer>
+	<key>IRMemory</key>
+	<integer>4</integer>
 	<key>JobName</key>
 	<true/>
+	<key>NeverWarnAboutShortLivedSessions_82E5BB74-F8C9-4449-8597-30096A7070A0</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_82E5BB74-F8C9-4449-8597-30096A7070A0_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1053,7 +1059,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>FiraCode-Bold 12</string>
+			<string>FiraCode-Retina 12</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
@@ -1306,7 +1312,7 @@
 	<key>ShowBookmarkName</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SoundForEsc</key>
