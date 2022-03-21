@@ -33,6 +33,7 @@ alias mv='mv -i'
 alias mkdir='mkdir -pv'
 
 # git
+alias g='git'
 alias gad='git add'
 alias gbr='git branch'
 alias gbrv='git branch -vv'
