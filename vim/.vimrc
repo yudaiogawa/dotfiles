@@ -54,7 +54,7 @@ inoremap jj <Esc>
 nnoremap <Esc><Esc> :nohlsearch<CR>
 
 " Vim Plug
-call plug#begin('~/.vim/plugged')
-Plug 'junegunn/goyo.vim'
-Plug 'tpope/vim-fugitive'
-call plug#end()
+" call plug#begin('~/.vim/plugged')
+" Plug 'junegunn/goyo.vim'
+" Plug 'tpope/vim-fugitive'
+" call plug#end()
