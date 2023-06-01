@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# git clone https://github.com/yudaiogawa/dotfiles.git ~/dotfiles
-
 # vim
 rm -f ~/.vimrc
 ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
@@ -22,6 +20,6 @@ ln -s ~/dotfiles/asdf/.asdfrc ~/.asdfrc
 
 # iterm
 curl -sS https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/material-design-colors.itermcolors \
-    -o ~/dotfiles/iterm/colors/material-design-colors.itermcolors
+    -o ~/dotfiles/iterm/colorschemes/material-design-colors.itermcolors
 \cp -f ~/dotfiles/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/
 
