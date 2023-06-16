@@ -1,5 +1,8 @@
 # env ###############################################
 
+# spaceship
+. $(brew --prefix)/opt/spaceship/spaceship.zsh
+
 # anyenv
 eval "$(anyenv init -)"
 export PATH=$PATH:$HOME/.anyenv/bin
@@ -213,7 +216,3 @@ case ${OSTYPE} in
 esac
 
 # vim:set ft=zsh:
-
-  # Set Spaceship ZSH as a prompt
-  autoload -U promptinit; promptinit
-  prompt spaceship
