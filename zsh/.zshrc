@@ -22,6 +22,10 @@ export MAVEN_OPTS='-Xmx512m'
 # java
 export _JAVA_OPTIONS='-Dfile.encoding=UTF-8'
 
+# gem
+export GEM_HOME=$HOME/.gem
+export PATH=$PATH:$GEM_HOME/bin
+
 # my alias ##########################################
 
 # unix
