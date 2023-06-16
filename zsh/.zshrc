@@ -8,7 +8,7 @@ eval "$(anyenv init -)"
 export PATH=$PATH:$HOME/.anyenv/bin
 
 # asdf
-. $(brew --prefix asdf)/asdf.sh
+. $(brew --prefix asdf)/libexec/asdf.sh
 
 # android development
 export ANDROID_HOME=$HOME/Library/Android/sdk
