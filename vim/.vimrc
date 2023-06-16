@@ -4,7 +4,7 @@ set fenc=utf-8
 
 " display
 syntax enable
-set number
+set nonumber
 set splitbelow
 set scrolloff=5
 
