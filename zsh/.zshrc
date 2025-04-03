@@ -26,6 +26,9 @@ export _JAVA_OPTIONS='-Dfile.encoding=UTF-8'
 export GEM_HOME=$HOME/.gem
 export PATH=$PATH:$GEM_HOME/bin
 
+# melos with flutter
+export PATH=$PATH:$HOME/.pub-cache/bin
+
 # my alias ##########################################
 
 # unix
