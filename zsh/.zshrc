@@ -179,6 +179,9 @@ bindkey '^R' history-incremental-pattern-search-backward
 ########################################
 # エイリアス
 
+# デジタル時計を表示する
+alias clock="tty-clock -sc"
+
 alias la='ls -la'
 alias ll='ls -l'
 
