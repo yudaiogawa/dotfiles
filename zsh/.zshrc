@@ -11,7 +11,7 @@ eval "$(anyenv init -)"
 export PATH=$PATH:$HOME/.anyenv/bin
 
 # asdf
-. $(brew --prefix asdf)/libexec/asdf.sh
+export PATH="$PATH:${ASDF_DATA_DIR:-$HOME/.asdf}/shims"
 
 # android development
 export ANDROID_HOME=$HOME/Library/Android/sdk
