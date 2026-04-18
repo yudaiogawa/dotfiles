@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Create bin directory
+mkdir $HOME/.local/bin
+
 # vim
 rm -f ~/.vimrc
 ln -s ~/dotfiles/vim/.vimrc ~/.vimrc

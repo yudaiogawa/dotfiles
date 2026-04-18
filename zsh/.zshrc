@@ -1,5 +1,8 @@
 # env ###############################################
 
+# bin in home directory
+export PATH="$PATH:$HOME/.local/bin"
+
 # spaceship
 . $(brew --prefix)/opt/spaceship/spaceship.zsh
 
